@@ -1,0 +1,158 @@
+@media (max-width: 991px) {
+    .advantage {
+        &__subtext {
+            margin-top: 11px;
+            width: 202px;
+            font-size: 12px;
+        }
+    }
+    .carusel {
+        .prev {
+            left: 100px;
+        }        
+        
+        .next {
+            right: 100px;
+        }
+        .tns-item {
+            img {
+            max-width: 400px;
+            }
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .promo {
+        &__header {
+            font-size: 35px;
+            line-height: 35px;
+        }
+        &__subheader {
+            font-size: 20px;
+            line-height: 20px;
+        }
+    }
+    .advantage {
+        &__subtext {
+            margin-top: 11px;
+            width: 202px;
+            font-size: 12px;
+        }
+    }
+    .title {
+        &_left {
+            font-size: 28px;
+        }
+    }
+
+    .catalog {
+        &__content {
+            justify-content: center;
+        }
+    }
+    .reviews {
+        &__clients {
+            flex-wrap: unset;
+            img {
+                margin-right: 24px;
+            }
+        }
+        &__subtitel {
+            width: 540px;
+        }
+    }
+ 
+}
+
+ @media (max-width: 575px) {
+    .header {
+        &__logo {
+            width: 150px;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+            font-size: 14px;
+            }
+        }
+        &__phone {
+            font-size: 15px;
+        }        
+     }
+    .button_ {
+        &_header {
+            width: 130px;
+            height: 25px;
+            font-size: 12px;
+        }
+    }
+
+    .promo {
+        &__icons {
+            width: 360px;
+
+        }
+    }
+
+    .advantage {
+        &__icons {
+            flex-direction: column;
+            margin-top: 10px;
+            img {
+                margin-top: 50px;
+            }         
+        }
+        &__subtext {
+            margin: 0 auto;
+            margin-top: 11px;
+            img {
+                margin-top: 0;
+            }
+        }
+    }
+
+    .title {
+        &_left {
+            font-size: 21px;
+        }
+    }
+    .consultation {
+        min-height: 516px;
+        padding: 47px 0 38px 0;
+        &__descr {
+            font-size: 18px;
+        }
+    }
+    .carusel {
+        .prev {
+            left: 100px;
+        }        
+        
+        .next {
+            right: 100px;
+        }
+        .tns-item {
+            img {
+            max-width: 250px;
+            }
+        }
+    }
+
+    .reviews {
+        &__clients {
+            flex-wrap: unset;
+            flex-direction: column;
+            align-items: center;
+            img {
+                margin-right: 0px;
+            }
+        }
+        &__name {
+            margin-top: 20px;
+        }
+        &__descr {
+            text-align: center;
+        }
+    }
+}

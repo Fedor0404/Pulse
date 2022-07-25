@@ -1,0 +1,37 @@
+.reviews {
+    padding-bottom: 60px;
+    &__clients {
+        margin-top: 60px;
+        display: flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        img {
+            width: 169px;
+            height: 169px;
+            margin-right: 57px;
+        }
+    }
+    &__descr {
+        display: block;
+    }
+    &__name {
+        font-weight: bold;
+        font-size: 18px;
+        color: #0D0D0D;
+    }
+    &__stage {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #646464;
+    }
+    &__subtitel {
+        width: 680px;
+        margin-top: 10px;
+        // margin-bottom: 60px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        color: #0D0D0D;
+    }
+}
